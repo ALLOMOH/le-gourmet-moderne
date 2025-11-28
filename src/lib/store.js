@@ -10,7 +10,7 @@ const INITIAL_MENU = [
     price: 18,
     desc: "Agrumes, huile de vanille.",
     image:
-      "[https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80](https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80)",
+      "https://www.chefviande.com/wp-content/uploads/2025/09/Carpaccio-de-Saint-Jacques-Vinaigrette-Mangue.webp",
   },
   {
     id: 3,
@@ -19,7 +19,7 @@ const INITIAL_MENU = [
     price: 34,
     desc: "Foie gras poêlé, jus truffé.",
     image:
-      "[https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80](https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80)",
+      "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80",
   },
   {
     id: 6,
@@ -28,8 +28,8 @@ const INITIAL_MENU = [
     price: 12,
     desc: "Meringue, chantilly coco.",
     image:
-      "[https://images.unsplash.com/photo-1488477181946-6428a029177b?auto=format&fit=crop&q=80](https://images.unsplash.com/photo-1488477181946-6428a029177b?auto=format&fit=crop&q=80)",
-    }, 
+      "https://static.wixstatic.com/media/09d5ae_f00a4a5dffd84eeab763390ec8a548e1~mv2.jpg/v1/fill/w_740,h_925,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/09d5ae_f00a4a5dffd84eeab763390ec8a548e1~mv2.jpg",
+  },
 ];
 
 // --- STORES ---

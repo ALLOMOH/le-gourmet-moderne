@@ -1,6 +1,6 @@
 <script>
-    import { isAuthOpen, authMode, authActions, theme } from '$lib/stores';
-    import { theme as themeStore } from '$lib/stores';
+    import { isAuthOpen, authMode, authActions, } from '$lib/store';
+    import { theme as themeStore } from '$lib/theme';
     import { fade, scale } from 'svelte/transition';
 
     let formData = { name: '', email: '', password: '' };
@@ -34,7 +34,7 @@
                 
                 {#if error} <p class="text-red-500 text-sm">{error}</p> {/if}
                 
-                <button class="w-full py-4 rounded-xl font-bold text-white" style="background-color: {$themeStore.primaryColor}">
+                <button class="w-full py-4 rounded-xl font-bold text-white" style="background-color: {themeStore().primary}">
                     {$authMode === 'login' ? 'Se connecter' : "S'inscrire"}
                 </button>
             </form>

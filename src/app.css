@@ -1,0 +1,40 @@
+
+
+ 
+
+theme base {
+
+  * {
+    @apply box-border m-0 p-0;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-100 text-gray-900;
+  }
+  a {
+    @apply text-blue-600 hover:text-blue-800;
+  }
+  button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+  button:hover {
+    @apply bg-blue-700;
+  }
+  input {
+    @apply border border-gray-300 rounded-md p-2;
+  }
+  input:focus {
+    @apply border-blue-500 outline-none;
+  }
+ 
+  .footer {
+    @apply bg-white shadow p-4 text-center;
+  }
+  .card {
+    @apply bg-white shadow-md rounded-lg p-4;
+  }
+}
